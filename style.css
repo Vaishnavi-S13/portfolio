@@ -1,0 +1,204 @@
+#title > div.header > h1{
+    font-family: 'Roboto', sans-serif;
+    
+}
+.navbar{
+    background-color: #610C63;
+}
+.navbar-brand:hover{
+    color: #FFC4C4;
+}
+/* nav bar */
+.navbar-brand, .nav-item{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: #EE81B3;
+}
+#nav > nav > div > ul > li> a{
+    color: #AF7AB3;
+    padding: 10px;
+}
+.nav-item {
+    word-spacing: 10px;
+}
+
+#title{
+    display: flex;
+    background-color: #AF7AB3;
+    padding: 7% 15%;
+}
+   
+.img1{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    left: 50px;
+    top: 150px;
+    border-radius: 50%;
+}
+
+#title > div.header{
+    margin-left: 400px;
+    color: #fff;
+}
+#tech{
+    /* display: flexbox; */
+    padding: 50px 150px;
+    text-align: center;
+
+}
+
+#tech-backend{
+    /* display: flex; */
+    padding: 50px 150px;
+    text-align: center;
+    
+}
+.card-title {
+    font-size: large;
+}
+#project{
+    text-align: center;
+}
+#project > h1{
+    color: #610C63;
+}
+#tech-backend > div > div:nth-child(even) > div{
+    /* background-color: #AF7AB3; */
+    background-color: #389393;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#tech-backend > div > div:nth-child(odd) > div{
+    /* background-color: #EE81B3; */
+    background-color: #AF7AB3;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#tech > div > div:nth-child(even) > div{
+    background-color: #AF7AB3;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#tech > div > div:nth-child(odd) > div{
+    background-color: #389393;
+    color: #fff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.project1{
+    background-color: #389393;
+    padding: 10% 15%;
+    width: 0 auto 0 auto;
+    color: #fff;
+    font-family: 'Cormorant Upright', serif;
+}
+.project2{
+    background-color: #610C63;
+    padding: 10% 15%;
+    width: 0 auto 0 auto;
+    color: #fff;
+    font-family: 'Cormorant Upright', serif;
+}
+.project3{
+    background-color: #BD4291;
+    padding: 9% 15%;
+    width: 0 auto 0 auto;
+    color: #fff;
+    font-family: 'Cormorant Upright', serif;
+}
+.project4{
+    background-color: #FFCD3C;
+    padding: 10% 15%;
+    width: 0 auto 0 auto;
+    color: #fff;
+    font-family: 'Cormorant Upright', serif;
+}
+.project5{
+    background-color: #D8D860;
+    padding: 10% 15%;
+    width: 0 auto 0 auto;
+    color: #fff;
+    font-family: 'Cormorant Upright', serif;
+}
+.project6{
+    background-color: #E78EA9;
+    padding: 9% 15%;
+    width: 0 auto 0 auto;
+    color: #fff;
+    
+}
+.project1,.project2,.project3,.project4,.project5,.project6{
+    font-family: 'Cormorant Upright', serif;
+    font-size: 1.3em;
+}
+#about > h1{
+    margin-top: 50px;
+    color: #610C63;
+    text-align: center;
+}
+#about > p{
+    padding: 10% 15%;
+    background-color: #AF7AB3;
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact{
+    text-align: center;
+    padding: 10% 15%;
+}
+#contact > a{
+    padding: 2%;
+    color: #389393;
+}
+#contact > a:nth-child(5) > p{
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: all-scroll;
+    
+}
+#tech-backend > div > div > div > a,#tech > div > div > div > a{
+text-decoration: none;
+color:#D8D860;
+font-weight: bold;
+}
+#carouselExampleControls > div > div.carousel-item.project1 > a,
+#carouselExampleControls > div > div.carousel-item.project2 > a,
+#carouselExampleControls > div > div.carousel-item.project3 > a,
+#carouselExampleControls > div > div.carousel-item.project4 > a,
+#carouselExampleControls > div > div.carousel-item.project5 > a,
+#carouselExampleControls > div > div.carousel-item.project6 > a{
+    text-decoration: none;
+    color: aqua;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+#tech > div > div > div > i,
+#tech-backend > div > div > div > i{
+ color: #D8D860;
+}
+  @media (max-width:900px) {
+   
+    #title > div.header{
+        margin: 0 auto 0  auto;
+        padding: 7%;
+        position: relative;
+        text-align: center;
+
+    }
+        
+    .img1{
+      display: none;
+    }
+    .img2{
+        
+        display: none;
+    } 
+    .card{
+        display: flex;
+        align-self: center;
+    }
+  }
